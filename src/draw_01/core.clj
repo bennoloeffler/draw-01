@@ -3,7 +3,7 @@
             [quil.middleware :as m]))
 
 (defn setup []
-  (q/text-font (q/create-font "DejaVu Sans" 28 true))
+  (q/text-font (q/create-font "times new roman" 38 true))
   ; Set frame rate to 30 frames per second.
   (q/frame-rate 30)
   ; Set color mode to HSB (HSV) instead of default RGB.
